@@ -1,0 +1,66 @@
+html, body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e9ecef;
+}
+
+.appTitle .title {
+  background: #22b8cf;
+  color: white;
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inputFiled {
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+
+.appTitle {
+  display: flex;
+  background: #495057;
+}
+.appTitle input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: white;
+  flex: 1;
+}
+.appTitle input::placeholder {
+  color: #dee2e6;
+}
+.appTitle button {
+  background: none;
+  outline: none;
+  border: none;
+  background: #868e96;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s background ease-in;
+}
+.appTitle button:hover {
+  background: #adb5bd;
+}
+
+/*# sourceMappingURL=compiled.css.map */

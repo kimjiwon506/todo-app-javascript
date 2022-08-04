@@ -1,0 +1,28 @@
+{
+  "name": "mini-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "sass": "node-sass css/style.scss ./css/style/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "compiler": "^0.1.2",
+    "live": "^0.1.25-beta.0",
+    "node-sass": "^7.0.1",
+    "prettier": "2.7.1",
+    "sass": "^1.54.2"
+  }
+}

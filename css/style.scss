@@ -1,0 +1,73 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e9ecef;
+  margin: 0;
+  padding: 0;
+}
+.appTitleWrap {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.title {
+  background: #22b8cf;
+  color: white;
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputWrap {
+  display: flex;
+  background: #495057;
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: white;
+    &::placeholder {
+      color: #dee2e6;
+    }
+    flex: 1;
+  }
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    background: #868e96;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #adb5bd;
+    }
+  }
+}
+#todo-list {
+  min-height: 320px;
+  max-height: 513px;
+  overflow-y: auto;
+  background: white;
+}
+.itemList {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  input {}
+  span{}
+  button{}
+}
